@@ -6,6 +6,10 @@ const ItemSchema = new Schema({
         type: String,
         required: true
     },
+    imageURL: {
+        type: String,
+        required: false
+    }
     date: {
         type: Date,
         required: true,
