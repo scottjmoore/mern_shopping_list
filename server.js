@@ -12,6 +12,6 @@ mongoose.connect(db, { useNewUrlParser: true }).then( () => console.log('MongoDB
 
 app.use('/api/items', items);
 
-const port = 5000;
+const port = 80;
 
 app.listen(port, () => console.log(`Server started on port ${port}`))
