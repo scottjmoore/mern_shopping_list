@@ -8,8 +8,9 @@ const ItemSchema = new Schema({
     },
     imageURL: {
         type: String,
-        required: false
-    }
+        required: true,
+        default: 'http://localhost/dummy.png'
+    },
     date: {
         type: Date,
         required: true,
