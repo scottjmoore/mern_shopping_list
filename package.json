@@ -4,7 +4,7 @@
   "description": "MERN Shopping List Application",
   "main": "server.js",
   "scripts": {
-    "setup": "npm install && npm install --prefix client",
+    "setup": "npm install && cd client && npm install",
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",

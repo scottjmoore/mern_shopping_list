@@ -6,6 +6,11 @@ const ItemSchema = new Schema({
         type: String,
         required: true
     },
+    imageURL: {
+        type: String,
+        required: true,
+        default: 'http://localhost/dummy.png'
+    },
     date: {
         type: Date,
         required: true,
